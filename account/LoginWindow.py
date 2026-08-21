@@ -15,7 +15,7 @@ from PySide6.QtWidgets import (
     QTextEdit, QListWidget, QSpinBox, QCheckBox, QGroupBox, QTableWidget,
     QTableWidgetItem, QHeaderView, QStatusBar, QSystemTrayIcon, QMenu,
     QSlider, QFileDialog, QToolTip, QGraphicsOpacityEffect,
-    QGraphicsDropShadowEffect, QAction, QApplication, QFormLayout,
+    QGraphicsDropShadowEffect,  QApplication, QFormLayout,
     QGridLayout
 )
 
