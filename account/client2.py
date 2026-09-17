@@ -28,7 +28,7 @@ from PySide6.QtCore import (
 from PySide6.QtGui import (
     QFont, QPalette, QColor, QPixmap, QIcon, QKeySequence,
     QPainter, QPen, QBrush, QLinearGradient, QPainterPath,
-    QImageReader, QFontDatabase, QShortcut, QAction as QGuiAction,
+    QImageReader, QFontDatabase, QShortcut, QAction ,
     QImage, QMovie, QTransform, QClipboard
 )
 
