@@ -3,11 +3,8 @@ import os
 import json
 import time
 from datetime import datetime
-# Import account_config with fallback
-try:
-    from .account_config import account_config
-except ImportError:
-    from account_config import account_config
+from .account_config import account_config
+
 API_BASE_URL = account_config.API_BASE_URL
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
