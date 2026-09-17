@@ -5981,7 +5981,9 @@ def main():
         ACCOUNT_AVAILABLE = True
         print("✅ Account modules imported")
     except ImportError as e:
+        import traceback
         print(f"⚠️ Account import failed: {e}")
+        traceback.print_exc()
     
     result['ACCOUNT_AVAILABLE'] = ACCOUNT_AVAILABLE
     result['AccountTokenManager'] = AccountTokenManager
