@@ -1,7 +1,7 @@
 import sys
 import json
 import os
-from account_config import account_config
+from .account_config import account_config
 API_BASE_URL = account_config.API_BASE_URL
 import requests
 from PySide6.QtWidgets import *
@@ -13,7 +13,7 @@ import math
 
 # ========== IMPORT TEACHER SELECTOR ==========
 try:
-    from teacherselector import TeacherSelectorDialog
+    from .teacherselector import TeacherSelectorDialog
     TEACHER_SELECTOR_AVAILABLE = True
     print("✅ TeacherSelectorDialog loaded in MultiStepFormWindow")
 except ImportError as e:
