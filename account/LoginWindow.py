@@ -29,7 +29,7 @@ from PySide6.QtGui import (
     QFont, QPalette, QColor, QPixmap, QIcon, QKeySequence,
     QPainter, QPen, QBrush, QLinearGradient, QPainterPath,
     QImageReader, QFontDatabase, QShortcut, QAction as QGuiAction,
-    QImage, QMovie, QTransform, QClipboard
+    QImage, QMovie, QTransform, QClipboard,QFontMetrics
 )
 # ============================================================
 
