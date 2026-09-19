@@ -19,9 +19,10 @@ from PySide6.QtWidgets import (
     QGridLayout
 )
 
+
 from PySide6.QtCore import (
     Qt, QTimer, QThreadPool, QPropertyAnimation, QEasingCurve,
-    QSize, QPoint, QRect, QEventLoop, QProcess, Signal, QObject,
+    QSize, QPoint, QPointF, QRect, QEventLoop, QProcess, Signal, QObject,
     QByteArray, QRectF, Property, QMetaObject, Q_ARG, QThread
 )
 
