@@ -52,11 +52,11 @@ class AnimatedGradientPanel(QWidget):
         super().paintEvent(event)
 
 
-from ApiWorker import ApiWorker
-from account_config import account_config
+from .ApiWorker import ApiWorker
+from .account_config import account_config
 
 # Import sound manager
-from SoundManager import sound_manager
+from .SoundManager import sound_manager
 
 
 class TermsDialog(QDialog):
