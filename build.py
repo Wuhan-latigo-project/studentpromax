@@ -28,6 +28,7 @@ DATA_DIRS = [
     "icons",
     "sounds",
     "teacherselector",
+    "poll"
 ]
 
 # ============================================================
@@ -39,6 +40,7 @@ PACKAGES = [
     "Behavioral",
     "classroom",
     "teacherselector",
+    "poll"
 ]
 
 # ============================================================
@@ -61,6 +63,8 @@ PACKAGES_WITH_INIT = [
     "Behavioral",
     "classroom",
     "teacherselector",
+    "poll"
+    
 ]
 
 def ensure_init_files():
